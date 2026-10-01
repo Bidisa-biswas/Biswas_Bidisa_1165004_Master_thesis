@@ -1,7 +1,7 @@
-Scenario,Accuracy (%)
-Normal,55.37
-2008 Crisis Magnitude,56.43
-COVID Crisis Magnitude,56.85
-Synthetic Extreme,56.48
-Non-linear Squeeze,56.48
-Structural Break,56.3
+Scenario,Raw acc (%),Balanced acc (%)
+normal,55.37,56.38
+crisis_covid,56.85,57.58
+crisis_2008,56.43,56.88
+synthetic_extreme,56.48,56.79
+structural_break,56.3,56.62
+squeeze,56.48,55.61

@@ -1,7 +1,7 @@
-Scenario,Accuracy (%),Δ vs Normal (pp),z-statistic,p-value,Significance,Finding
-Normal,55.4,—,—,—,—,Baseline
-2008 Crisis Magnitude,56.40,+1.00,1.424,0.1544,ns,not significant
-COVID Crisis Magnitude,56.90,+1.50,2.137,0.0326,*,SIGNIFICANT IMPROVEMENT
-Synthetic Extreme,56.50,+1.10,1.567,0.1172,ns,not significant
-Non-linear Squeeze,56.50,+1.10,1.567,0.1172,ns,not significant
-Structural Break,56.30,+0.90,1.282,0.2000,ns,not significant
+Scenario,Accuracy (%),Δ vs Normal (pp),z,p-value,Cohen h,Sig (Bonferroni),Finding
+Normal,55.37,—,—,—,—,—,Baseline
+2008 Crisis Magnitude,56.43,+1.06,1.510,0.1311,0.0213,no,not significant (negligible effect)
+COVID Crisis Magnitude,56.85,+1.48,2.109,0.0350,0.0298,no,"nominal only, fails Bonferroni (negligible effect)"
+Synthetic Extreme,56.48,+1.11,1.581,0.1139,0.0224,no,not significant (negligible effect)
+Non-linear Squeeze,56.48,+1.11,1.581,0.1139,0.0224,no,not significant (negligible effect)
+Structural Break,56.30,+0.93,1.324,0.1854,0.0187,no,not significant (negligible effect)
