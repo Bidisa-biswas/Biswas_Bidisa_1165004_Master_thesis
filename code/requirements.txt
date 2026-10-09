@@ -1,0 +1,9 @@
+   numpy
+   pandas
+   yfinance
+   arch
+   scikit-learn
+   scipy
+   tensorflow
+   matplotlib
+   pyarrow
